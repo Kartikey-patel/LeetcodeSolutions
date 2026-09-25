@@ -1,0 +1,39 @@
+turn -1;
+    }
+        int binarySearchDec(MountainArray &mountainArr,int target,int l, int r){
+        while(l < r){
+            int mid = l + (r-l)/2;
+            int val = mountainArr.get(mid);
+            if(val == target){
+                return mid;
+            }
+            else if(val > target){
+                l = mid+1;
+            }
+            else{
+                r = mid;
+            }
+        }
+        if(mountainArr.get(l) == target)
+            return l;
+        return -1;
+    }
+public:
+    int findInMountainArray(int target, MountainArray &mountainArr) {
+        int n = mountainArr.length();
+
+        int l = 0, r = n - 1;
+
+        while(l < r){
+            int mid = l + (r-l)/2;
+
+            if(mountainArr.get(mid) < mountainArr.get(mid+1))
+                l = mid + 1;
+            else
+                r = mid;
+        }
+
+        int left = binarySearchInc(mountainArr, target, 0, l);
+        int right = binarySearchDec(mountainArr, target, l+1, n-1);
+
+        if(left !

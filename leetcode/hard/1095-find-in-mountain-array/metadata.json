@@ -1,0 +1,25 @@
+{
+  "title": "Find in Mountain Array",
+  "titleSlug": "find-in-mountain-array",
+  "frontendQuestionId": "1095",
+  "leetcodeUrl": "https://leetcode.com/problems/find-in-mountain-array/",
+  "difficulty": "Hard",
+  "topics": [
+    "Array",
+    "Binary Search",
+    "Interactive",
+    "Ternary Search"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-25T21:08:25.017Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-25T21:08:26.885Z"
+}
