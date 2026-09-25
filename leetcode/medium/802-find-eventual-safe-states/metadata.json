@@ -1,0 +1,27 @@
+{
+  "title": "Find Eventual Safe States",
+  "titleSlug": "find-eventual-safe-states",
+  "frontendQuestionId": "802",
+  "leetcodeUrl": "https://leetcode.com/problems/find-eventual-safe-states/",
+  "difficulty": "Medium",
+  "topics": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory",
+    "Topological Sort",
+    "Kosaraju's Algorithm",
+    "Tarjan's SCC Algorithm"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-25T13:31:24.940Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-25T13:31:26.868Z"
+}
